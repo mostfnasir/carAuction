@@ -1,0 +1,346 @@
+*{
+    padding: 00px;
+    margin: 00px;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+font-family: 'Inter', sans-serif;
+}
+
+.nav-link{
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+margin-left: 20px;
+letter-spacing: -0.1px;
+color: #0D0A19;
+}
+
+.signup{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+letter-spacing: -0.1px;
+color: #9A9EA7;
+}
+
+.signup img{
+    width: 30px;
+    height: 25px;
+    border-radius: 10px;
+    padding: 5px 8px;
+
+text-align: center;
+
+/* Greys / #9A9EA7 */
+
+background-color:#F5F6F7;;
+}
+.cover {
+    background-image: url(img/cover.png);
+    width: 100%;
+    height: 560px;
+    background-size: cover;
+    background-repeat: none;
+    
+}
+.cover h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 74px;
+/* or 116% */
+
+text-align: center;
+letter-spacing: -0.304762px;
+
+color: #FFFFFF;
+padding-top: 100px;
+}
+.cover p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+/* or 135% */
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.sectionfooter{
+    
+
+}
+
+.footerdown{
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgb(153 155 168 / 15%);
+    border-radius: 8px;
+    max-width: 945px;
+    height: 80px;
+    position: absolute;
+    margin: 0px auto;
+    bottom: 168px;
+    left: 15%;
+
+    z-index: 99;
+    width: 98%;
+}
+.footerdown p{
+/* Regular / 12px / Regular */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.1px;
+
+/* Greys / #9A9EA7 */
+
+color: #9A9EA7;
+margin-right: 92px;
+margin-top: 12px;
+
+}
+.form-select{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.1px;
+
+/* #0D0A19 / Primary */
+
+color: #0D0A19;
+border: none !important;
+margin-top: -15px;
+}
+.withoutp{
+    margin-top: 30px;
+}
+.searchbutton{
+    margin-top: -7px;
+    background: #7963F0;
+border-radius: 10px;
+padding: 7px 15px;
+font-weight: 700;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.1px;
+
+/* #FFFFFF */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.searchbutton img{
+    margin-top: 2px;
+    margin-right: 3px;
+}
+.logo{
+    margin-top: 106px;
+    margin-bottom: 84px;
+  
+}
+.logo img{
+    text-align: center;
+}
+.sector{
+    background: #FFFFFF;
+border: 5px solid #000001;
+border-radius: 14px;
+}
+.sector img{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 8px;
+}
+h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+/* identical to box height, or 129% */
+
+letter-spacing: -0.1px;
+margin-top: 50px;
+color: #0D0A19;
+}
+#bidbutton{
+    margin-left: 210px;
+    position: absolute;
+    margin-top: -53px;
+    background: #7963F0;
+border-radius: 10px;
+}
+h5{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height, or 150% */
+
+
+color: #0D0A19;
+}
+
+footer{
+    background: #F5F6F7;
+    margin-top: 100px;
+}
+footer h5{
+
+padding: 00;
+margin: 00;
+margin-top: 50px;
+
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 50px;
+}
+.listbox{
+    padding: 20px;
+}
+.findcar{
+    margin-top: 100px;
+}
+.findcar h3{
+    display: inline-block;
+
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+/* identical to box height, or 129% */
+
+letter-spacing: -0.1px;
+
+color: #0D0A19;
+}
+.findcar button{
+    display: inline-block;
+    text-align: center;
+    float: right;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.1px;
+border: none;
+    margin-left: 25px;
+/* Greys / #9A9EA7 */
+
+color: #9A9EA7;
+background-color: #FFFFFF;
+}
+
+.findcar a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 35px;
+    /* or 219% */
+    
+    
+    color: #0D0A19;
+    
+
+}
+.findcar ul {
+    display: inline-block;
+}
+.numberlist{
+    display: inline-block;
+    float: right;
+}
+.numberlist a{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 35px;
+/* or 250% */
+
+text-align: right;
+
+color: #0D0A19;
+}
+.findlogo{
+    padding: 10px;
+    margin-left: 10px;
+}
+.findlogo p{
+    margin-left: 55px;
+}
+.findlogo img{
+ margin-right: 10px;
+}
+.findlogo{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height, or 150% */
+
+
+color: #0D0A19;
+}
+.findlogo p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.1px;
+
+color: #9A9EA7;
+}
+.lastfoot{
+    margin-top: 10px;
+}
+.lastfoot p{
+display: inline-block;
+margin-left: 20px;
+}
+.lastfoot img{
+    float: right;
+    margin-top: 5px;
+}
